@@ -1,0 +1,53 @@
+<h1>Emmet Zen Coding</h1>
+<!-- 
+etiket isimlerini direk verebiliyoruz
++ => kardeş öge
+> => içine gir
+^ => dışına çık
+* => çarp,kere li*3
+lorem?? => kullanma amacımız yazmadan önce yazılarınız nasıl gözüküyor ve ne kadar yer kaplıyor
+lorem4 => 4 kelimelik kelime
+. =>class
+# => id
+ -->
+
+<!-- h2>li*3^p>h3>p -->
+<h2>
+    <li></li>
+    <li></li>
+    <li></li>
+</h2>
+<p>
+    <h3>
+        <p></p>
+    </h3>
+</p>
+
+<!-- ul>li*3>lorem1^^p*2>lorem4^h3>lorem1         doğru -->
+<!-- ul>li*3>lorem1^^p*2>lorem4>h3>lorem1     -> hatalı -->
+<ul>
+    <li>Lorem.</li>
+    <li>Nulla.</li>
+    <li>Maxime!</li>
+</ul>
+<p>Lorem ipsum dolor sit.</p>
+<p>Repellendus ea libero quis.</p>
+<h3>Lorem.</h3>
+
+
+<h1 class="deneme">Lorem, ipsum.</h1> <!--class -> h1.deneme>lorem2 -->
+<h1 id="ide">Lorem, ipsum.</h1> <!--id -> ide#>lorem2 -->
+
+<!-- h1.deneme>#ideolsun>lorem1     -->
+ul>li.tepki
+ul>.tepki <!-- içinde class oluşturmak-->
+
+<ul>
+    <li class="tepki"></li>
+</ul>
+ul>li.item$*4 <!-- item$ tek tek rakam veriyor sıralıyor-->
+ul>li.item*4 <!-- sadece item item 4 kere yazar-->
+
+
+h2>li*4>lorem1^^p>lorem5
+
